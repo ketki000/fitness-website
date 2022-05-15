@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="top-container" >
+        <div class="left">
+            <img src="images/dumbbell.png" alt="logo">
+            <p> Ketki Fitness</p></div>
+        <div class="mid">
+            <nav class="navbar">
+            <ul  >
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#"> About</a></li>
+                <li> <a href="#">Programs</a> </li>
+                <li> <a href="#">Trainors</a> </li>
+            </ul>
+        </nav>
+        </div>
+        <div class="right">
+            <button class="btn" type="button">Contact Us</button>
+            <button class="btn" type="button"> Sign Up</button>
+        </div>
+    </header>
+<div class="mid-container">
+    <p id ="heading">Fitness Form</p>
+<form action="action.php" class="form">
+
+    <label for="name">Full Name *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    </label>
+    <input type="text" name="name" id="name" class="input-box" placeholder="enter your name">
+    <br>
+    <p>Gender* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gen">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gen">
+</p>
+<label for="birth">Date Of Birth * &nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="date" id="dob" name="birth" placeholder="enter dob" class="input-box">
+<br><br>
+<label for="age">Age * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<select name="age" id="age" name="age" size="1" class="input-box">
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+</select>
+<br><br>
+<label for="height">Height * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;</label>
+<input type="number" name="height" placeholder="Enter height in cm" class="input-box">
+<label for="height">cm</label>
+<br><br>
+<label for="weight">Weight * &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="number" name="weight" placeholder="Enter weight in kg" class="input-box">
+<label for="weight">kg</label>
+<input type="submit" value="Submit" class="input-box" id="submit">
+
+
+</form>
+</div>
+<div>
+<footer class="footer">
+    <p>Copyright &copy; ketkifitness.com</p>
+  </footer>
+</div>
+</body>
+</html>
